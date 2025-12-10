@@ -69,7 +69,7 @@ As such, those are in use within the default layer at this time.*/
 &trans  &kp GRAVE  &trans  &trans  &kp PRINTSCREEN  &trans                    &kp INS     &kp HOME        &kp UP_ARROW      &kp END            &kp PG_UP      &trans
 &trans  &trans     &trans  &trans  &trans           &trans                    &kp DELETE  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp PAGE_DOWN  &kp LEFT_GUI
 &trans  &trans     &trans  &trans  &trans           &trans  &trans    &trans  &kp MINUS   &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans
-&trans  &trans     &trans  &trans  &trans           &trans  &trans    &trans  &trans      &trans          &trans            &trans             &trans         &trans
+&trans  &trans     &trans  &trans  &trans           &trans  &trans    &trans  &trans      &kp SPACE           &trans            &trans             &trans         &trans
             >;
 
             label = "NAV";
