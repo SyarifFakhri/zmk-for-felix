@@ -53,19 +53,19 @@ layers:
   - RIGHT SHIFT
   - ''
   - ''
-  - adjust
+  - ADJUST
   - LEFT GUI
   - LEFT ALT
-  - nav
+  - NAV
   - SPACE
   - {t: RIGHT SHIFT, h: sticky}
-  - {t: symbol, h: sticky}
+  - {t: SYMBOL, h: sticky}
   - RIGHT CONTROL
-  - {t: math, h: toggle}
+  - {t: MATH, h: toggle}
   - DELETE
   - ''
-  - {t: gaming, h: toggle}
-  nav:
+  - {t: GAME, h: toggle}
+  NAV:
   - ESC
   - '&vim_mark LS(D)'
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  symbol:
+  SYMBOL:
   - ESC
   - Sft+1
   - Sft+@
@@ -195,7 +195,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  adjust:
+  ADJUST:
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -260,7 +260,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  math:
+  MATH:
   - {t: DEFAULT, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -321,11 +321,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - symbol
+  - SYMBOL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  gaming:
+  GAME:
   - ESC
   - '1'
   - '2'
