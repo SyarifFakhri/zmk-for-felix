@@ -123,6 +123,8 @@ As such, those are in use within the default layer at this time.*/
 &trans   &trans           &trans     &trans     &trans        &trans   &trans        &trans          &vim_register B   &kp LC(U)  &kp ENTER     &kp LC(D)            &trans               &trans
 &trans   &trans           &trans     &trans     &kp LEFT_ALT  &trans   &trans        &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans     &trans        &trans               &trans               &trans
             >;
+
+            label = "NAV";
         };
 
         symbol {
@@ -133,6 +135,8 @@ As such, those are in use within the default layer at this time.*/
 &kp MINUS     &kp LS(UNDER)     &kp LS(COLON)  &kp SEMICOLON  &kp LBKT      &kp RBKT       &trans        &trans  &trans  &trans     &trans     &trans    &trans         &trans
 &trans        &trans            &trans         &trans         &trans        &trans         &trans        &trans  &trans  &trans     &trans     &trans    &trans         &trans
             >;
+            
+            label = "SYMBOL";
         };
 
         adjust {
@@ -143,6 +147,8 @@ As such, those are in use within the default layer at this time.*/
 &trans  &sys_reset    &trans          &bootloader   &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans        &trans          &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans   &trans   &trans
             >;
+
+            label = "ADJUST";
         };
 
         math {
@@ -153,6 +159,8 @@ As such, those are in use within the default layer at this time.*/
 &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &kp N0        &kp N1  &kp N2  &kp N3  &kp EQUAL     &kp RET
 &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans        &trans  &mo 2   &trans  &trans        &trans
             >;
+
+            label = "MATH";
         };
 
         gaming {
@@ -163,6 +171,8 @@ As such, those are in use within the default layer at this time.*/
 &kp LCTRL  &kp Z   &kp X   &kp C   &kp V     &kp B   &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans  &trans  &trans  &kp LALT  &trans  &kp SPACE        &trans  &trans  &trans  &trans  &trans  &trans  &to 0
             >;
+            
+            label = "GAME";
         };
     };
 };
