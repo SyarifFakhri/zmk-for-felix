@@ -397,8 +397,7 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <a href="#GAME">
 <text x="0" y="0" class="key tap layer-activator">GAME</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
-</g>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 336)" class="layer-NAV">
@@ -1739,11 +1738,11 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(924, 252)" class="key keypos-63">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<g transform="translate(924, 252)" class="key held keypos-63">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 <a href="#DEFAULT">
-<text x="0" y="0" class="key tap layer-activator">DEFAULT</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<text x="0" y="0" class="key held tap layer-activator">DEFAULT</text>
+</a><text x="0" y="24" class="key held hold">toggle</text>
 </g>
 </g>
 </g>

@@ -64,7 +64,7 @@ layers:
   - {t: MATH, h: toggle}
   - DELETE
   - ''
-  - {t: GAME, h: toggle}
+  - GAME
   NAV:
   - ESC
   - '&vim_mark LS(D)'
@@ -389,4 +389,4 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: DEFAULT, h: toggle}
+  - {t: DEFAULT, h: toggle, type: held}
