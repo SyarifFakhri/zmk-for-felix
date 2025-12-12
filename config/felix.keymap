@@ -129,11 +129,11 @@ As such, those are in use within the default layer at this time.*/
 
         symbol {
             bindings = <
-&kp ESC       &kp LS(NUMBER_1)  &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                        &trans  &trans     &trans     &trans    &trans         &trans
-&kp GRAVE     &kp LS(CARET)     &kp LS(AMPS)   &kp LS(STAR)   &kp LS(LBRC)  &kp LS(RBRC)                         &trans  &kp TILDE  &trans     &trans    &trans         &trans
-&kp LS(PLUS)  &kp EQUAL         &kp SEMI       &kp LS(DQT)    &kp LS(LPAR)  &kp LS(RPAR)                         &trans  &trans     &kp SLASH  &kp PIPE  &kp BACKSLASH  &trans
-&kp MINUS     &kp LS(UNDER)     &kp LS(COLON)  &kp SEMICOLON  &kp LBKT      &kp RBKT       &trans        &trans  &trans  &trans     &trans     &trans    &trans         &trans
-&trans        &trans            &trans         &trans         &trans        &trans         &trans        &trans  &trans  &trans     &trans     &trans    &trans         &trans
+&kp ESC       &kp LS(NUMBER_1)  &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                        &trans  &trans     &trans    &trans         &trans  &trans
+&kp GRAVE     &kp LS(CARET)     &kp LS(AMPS)   &kp LS(STAR)   &kp LS(LBRC)  &kp LS(RBRC)                         &trans  &kp TILDE  &trans    &trans         &trans  &trans
+&kp LS(PLUS)  &kp EQUAL         &kp SEMI       &kp LS(DQT)    &kp LS(LPAR)  &kp LS(RPAR)                         &trans  &kp SLASH  &kp PIPE  &kp BACKSLASH  &trans  &trans
+&kp MINUS     &kp LS(UNDER)     &kp LS(COLON)  &kp SEMICOLON  &kp LBKT      &kp RBKT       &trans        &trans  &trans  &trans     &trans    &trans         &trans  &trans
+&trans        &trans            &trans         &trans         &trans        &trans         &trans        &trans  &trans  &trans     &trans    &trans         &trans  &trans
             >;
 
             label = "SYMBOL";
