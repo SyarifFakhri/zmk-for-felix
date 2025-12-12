@@ -162,10 +162,10 @@ layers:
   - Sft+(
   - Sft+)
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - /
   - '|'
   - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
   - Sft+_
