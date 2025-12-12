@@ -68,7 +68,7 @@ layers:
   NAV:
   - ESC
   - '&vim_mark LS(D)'
-  - {t: ▽, type: trans}
+  - '&vim_gotomark LS(D)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
