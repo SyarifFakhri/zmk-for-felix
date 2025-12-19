@@ -53,7 +53,7 @@ As such, those are in use within the default layer at this time.*/
         vim_replace_selection: vim_replace_selection {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DOUBLE_QUOTES &kp LS(M) &kp LS(Y) &kp FSLH &kp LC(R) &kp M &kp ENTER &kp LS(N) &kp G &kp N &kp C>;
+            bindings = <&kp DOUBLE_QUOTES &kp M &kp Y &kp FSLH &kp LC(R) &kp M &kp ENTER &kp LS(N) &kp G &kp N &kp C>;
             label = "VIM_REPLACE_SELECTION";
         };
 
