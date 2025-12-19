@@ -117,11 +117,11 @@ As such, those are in use within the default layer at this time.*/
 
         nav {
             bindings = <
-&kp ESC  &vim_mark LS(D)  &vim_gotomark LS(D)  &trans     &trans        &trans                                 &trans            &trans     &trans        &vim_mark LS(A)      &vim_mark LS(B)      &vim_mark LS(C)
-&trans   &vim_save        &kp LC(X)            &kp LC(C)  &kp LC(V)     &kp RET                                &trans            &trans     &kp UP_ARROW  &vim_gotomark LS(A)  &vim_gotomark LS(B)  &vim_gotomark LS(C)
-&trans   &kp LC(A)        &trans               &trans     &trans        &trans                                 &vim_register A   &kp LEFT   &kp DOWN      &kp RIGHT            &trans               &trans
-&trans   &trans           &trans               &trans     &trans        &trans   &trans        &trans          &vim_register B   &kp LC(U)  &kp ENTER     &kp LC(D)            &trans               &trans
-&trans   &trans           &trans               &trans     &kp LEFT_ALT  &trans   &trans        &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans     &trans        &trans               &trans               &trans
+&kp ESC  &vim_mark LS(D)  &vim_gotomark LS(D)  &trans     &trans        &trans                                 &trans                  &trans     &trans        &vim_mark LS(A)      &vim_mark LS(B)      &vim_mark LS(C)
+&trans   &vim_save        &kp LC(X)            &kp LC(C)  &kp LC(V)     &kp RET                                &vim_replace_selection  &trans     &kp UP_ARROW  &vim_gotomark LS(A)  &vim_gotomark LS(B)  &vim_gotomark LS(C)
+&trans   &kp LC(A)        &trans               &trans     &trans        &trans                                 &vim_register A         &kp LEFT   &kp DOWN      &kp RIGHT            &trans               &trans
+&trans   &trans           &trans               &trans     &trans        &trans   &trans        &trans          &vim_register B         &kp LC(U)  &kp ENTER     &kp LC(D)            &trans               &trans
+&trans   &trans           &trans               &trans     &kp LEFT_ALT  &trans   &trans        &kp LEFT_SHIFT  &kp LEFT_CONTROL        &trans     &trans        &trans               &trans               &trans
             >;
 
             label = "NAV";
