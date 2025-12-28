@@ -88,7 +88,7 @@ As such, those are in use within the default layer at this time.*/
         vim_find_selected: vim_find_selected {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DQT &kp D &kp Y &kp FSLH &kp LC(R) &kp D>;
+            bindings = <&kp DQT &kp D &kp Y &kp FSLH &kp LC(R) &kp D &kp ENTER>;
             label = "VIM_FIND_SELECTED";
         };
     };
